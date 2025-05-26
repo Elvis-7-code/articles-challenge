@@ -1,4 +1,11 @@
+from lib.db.connection import get_connection, get_cursor
 class magazines:
+    def __init__(self, name, category, id=None):
+        self.id = id
+        self.name = name
+        self.category = category
+
+
     def magazines(self):
         conn = get_connection()
         cursor = get_cursor()
