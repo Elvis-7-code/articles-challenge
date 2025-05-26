@@ -8,5 +8,5 @@ def setup_database():
     conn.commit()
     conn.close()
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     setup_database        
