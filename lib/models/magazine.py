@@ -5,7 +5,6 @@ class magazines:
         self.name = name
         self.category = category
 
-
     def magazines(self):
         conn = get_connection()
         cursor = get_cursor()
